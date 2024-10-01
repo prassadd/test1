@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />   
+<title>E-Commerce</title>
+<link rel="shortcut icon" href="#">
+  <script type="module" crossorigin src="/assets/cart-Bd0F2p8z.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/showToast-DD9_06Po.js">
+  <link rel="stylesheet" crossorigin href="/assets/showToast-DQXUbFGE.css">
+  <link rel="stylesheet" crossorigin href="/assets/cart-DVrtCXJ2.css">
+</head>
+<body>
+  <header class="header">
+    <section>
+      <div class="head-container" style="background-color: black;">
+        <div style="display: flex;color: #ffffff;margin: 0 auto;height: 50px;
+        max-width: 910px;    justify-content: space-between;">
+        <div class="head-text">
+          <p>Free Shipping 30 days return/refund guarentee.</p>
+        </div>
+        <div class="sign-links" style="display: flex;align-items: center;">
+          <a href="#" style="margin-right: 10px;    text-decoration: none;">SIGN IN</a>
+          <a href="#" style="    text-decoration: none;">SIGN UP</a>
+        </div>
+      </div>
+    </section>
+ 
+<div class="container1">
+  <div class="logo">
+    <a href="index.html"><img src="/assets/log-B6Pkeca7.png" width="120"></a>
+  </div>
+    <nav class="nav-bar">
+      <ul id="navBar">
+          <li class="nav-item" id="home"><a href="/">Home</a></li>
+          <li class="nav-item" id="about"><a href="about.html">About</a></li>
+          <li class="nav-item" id="products">Products</li>
+          <li class="nav-item" id="contact"><a href="#">Contact</a></li>
+          <li class="nav-item" id="cart"><a href="#" style="border-radius: 10px;display: flex;padding: 10px;width: 60px;
+            background: black;justify-content: center;color: white;"><span class="material-symbols-outlined">shopping_cart_checkout</span>
+            <span class="cart-value" style="font-weight: 600;
+    font-size: 20px;">0</span></a>
+            </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<template id="products1">
+    <li class="product">
+        <div style="width: 10%;justify-content: center;display: flex;">
+        <p class="catrgory"></p>
+    </div>
+        <div style="width: 15%;display: flex;justify-content: center;">
+        <img class="prodImg" src="" width="120" height="100"/>
+    </div>
+        <h3 class="prodLabel"></h3>
+        <p class="price"></p>
+        <div style="width: 20%;">
+            <div style="justify-content: center;display: flex;">
+            <button class="addRem" style="border: 1px solid black;border-right: none;">+</button>
+        <p class="qty"></p><button class="addRem" style="border: 1px solid black;border-left: none;">-</button></div></div>
+        <div style="width:20%;display: flex;justify-content: center;">
+        <button class="removeItem">Remove</button>
+    </div>
+    </li>
+        
+</template>
+<div>
+<div class="productsContainer">
+    <ul class="details"></ul>
+</div>
+</div>
+<section class="totalSection">
+    <div class="total" style="float: right;border: 2px solid black;padding: 5px;">
+    <h3 class="totalTitle">Selected Offer Summary</h3>
+    <p class="subTotal">Sub Total <span class="sub-total"></span></p>
+    <p class="tax" style="border-bottom: 1px solid black;">Tax <span class="tax-amount"></span></p>
+    <p class="final-total">Final Total <span class="final-amount"></span></p>
+    </div>
+</section>
+<div class="toast">
+    <div class="toast-content">
+      <p class="toast-message" style="margin: 0;padding: 5px;"></p>
+    </div>
+</div>
+
+</body>
+</html>
